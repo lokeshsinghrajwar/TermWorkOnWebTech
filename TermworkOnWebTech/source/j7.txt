@@ -1,0 +1,58 @@
+<!Doctype html>
+
+<html>
+
+<head>
+
+<script>
+
+function check()
+
+{
+
+   var x = document.getElementById("use").value;
+ 
+  var y= x.slice(0,3);
+  
+ var z= x.slice(3);
+
+ document.getElementById("area").value=y;
+
+document.getElementById("phone").value=z;
+
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<form>
+Enter the 10 digit number<br/><br/>
+
+<input type="text" value="" id="use" name="use" >
+<br>
+
+<input type="button" value="press it!" onClick="check()">
+
+
+<br>
+
+<br>area:
+<input type="text" value="" id="area" name="area">
+<br>
+
+<br><br>phone number:
+<input type="text" value="" id="phone" name="phone">
+
+
+<br><br>
+
+</form>
+
+
+</body>
+
+</html>

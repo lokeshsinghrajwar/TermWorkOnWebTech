@@ -1,0 +1,16 @@
+
+<!doctype html>
+<html>
+<head>
+<title>5</title>
+</head>
+<body>
+<center>
+<img align="left" height="300" width="350" src="n6.jpg" usemap="#map1">
+<map name="map1">
+<area shape="rect" coords="0,0,50,300" href="www.nokia.com">
+<area shape="rect" coords="51,0,350,300" href="n.jpg">
+</map>
+</center>	
+</body>
+</html>

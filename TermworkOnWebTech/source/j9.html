@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+ <html>
+  <head>
+	  <style>
+		  #msg{
+		  	position:relative;
+		  }
+ 		body{
+			margin:70px;
+			padding:50px;
+		}
+	  </style>
+    <script>
+		pos=1;
+		var imgobg=null,animate;
+		var turn=0;
+		function left()
+		{
+			turn=0;
+			
+			var ele=document.getElementById("msg");
+			timerid=setInterval(f1,15);
+			function f1(){
+				if(pos==0&&turn==0){
+					
+					alert("Can't move further!");
+					clearTimeout(timerid);
+				}
+				else{
+					pos--;
+					ele.style.left=pos+'px';
+				}
+			}
+			
+			
+		}	
+		function right()
+		{
+		 	turn=1;
+			var ele=document.getElementById("msg");
+			timerid=setInterval(f2,15);
+			function f2(){
+				if(pos==550&&turn==1){
+					
+					clearTimeout(timerid);
+					alert("Can't move further!");
+					
+				}
+				else{
+					pos++;
+					ele.style.left=pos+'px';
+				}
+			}
+			
+			
+		}
+		
+	</script>	 
+  </head>
+  <body id="body" onLoad=init()>
+           <h1 id=msg>TEXT MESSAGE</h1>
+<p>
+<h2>To move this message</h2>
+
+	  <form name=f1>
+		<input type=button id=l value="Move Left" onClick="left();">  
+		<input type=button id=r value="Move Right" onClick=right()>  
+	  </form>
+	  
+  </body>
+ </html>

@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>css</title>
+<style>
+a:link {
+    color: pink;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+<p>You can change the default colors of links</p>
+
+<a href="html_images.html" target="_blank">HTML Images</a> 
+
+</body>
+</html>

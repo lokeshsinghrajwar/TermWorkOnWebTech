@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Form Validation</title>
+	</head>
+	<body>
+	<font size="5">
+		<form>
+			
+			Email ID:<input type="text" name="email" id="abc" onkeypress="validate()"><br>
+		
+		</form>
+		<script>
+			function validate()
+			{
+				var x=document.getElementById('abc').value;
+				var patt=/^\w+@+[a-zA-Z]+\.+[a-zA-Z]{1,2}$/;
+				var res=patt.test(x);
+				if(res==false)
+				{
+					document.getElementById('abc').style.backgroundColor="red";
+				}
+				else
+				{
+					document.getElementById('abc').style.backgroundColor="green";
+				}
+			}
+		</script>
+			</font>
+	</body>
+</html>
+			
+			

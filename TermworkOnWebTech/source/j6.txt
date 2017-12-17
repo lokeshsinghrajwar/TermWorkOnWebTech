@@ -1,0 +1,21 @@
+
+<!doctype html>
+<html>
+<head>
+<script>
+function f1()
+{
+var x= new Date(document.getElementById("name").value);
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.getElementById("demo").innerHTML = days[x.getDay()];
+
+}
+</script>
+</head>
+<body>
+Enter Date Of Birth: <input type="date" name="date" id="name" value="">
+<br><br>
+<input type="button" onClick="f1()" value="press it">
+<p id="demo"></p>
+</body>
+</html>

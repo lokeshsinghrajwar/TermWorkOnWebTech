@@ -1,0 +1,17 @@
+
+<!doctype html>
+<html lang="us-eng">
+<head>
+<title>ANSWERS</title>
+</head>
+<body>
+<pre>
+      *
+    * * *
+  * * * * *
+* * * * * * *
+</pre>
+
+</body>
+</html>
+   

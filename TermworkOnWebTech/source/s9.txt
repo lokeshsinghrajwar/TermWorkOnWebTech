@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="us-eng">
+<head>
+<title>8</title>
+</head>
+<body bgcolor="#00BFFF">
+
+	
+	<video align="right" height="300px" width="400px" controls>
+<source src="Nokia 6 - Unboxing _ Hands On_ - 480P.mp4">
+YOUR BROWSER DOES NOT SUPPORT VIDEO TAG.
+	</video>
+	
+	
+	<audio align="right" height="300px" width="400px" controls>
+<source src="Nokia 6 - Unboxing _ Hands On_ - 480P.mp4">
+YOUR BROWSER DOES NOT SUPPORT VIDEO TAG.
+	</audio>
+	
+	 <article>
+  <header>
+    <h1>Most important heading here</h1>
+    <h3>Less important heading here</h3>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article> 
+	
+	 <footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer> 
+
+	 <nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav> 
+	
+	 <embed src="helloworld.swf"> 
+	
+	 <ul>
+  <li>User <bdi>hrefs</bdi>: 60 points</li>
+  <li>User <bdi>jdoe</bdi>: 80 points</li>
+  <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul> 
+	
+	 <input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist> 
+	
+	 <input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist> 
+	
+	
+	 <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+  <input type="range" id="a" value="50">100
+  +<input type="number" id="b" value="50">
+  =<output name="x" for="a b"></output>
+</form> 
+	
+	<form action="demo_keygen.asp" method="get">
+  Username: <input type="text" name="usr_name">
+  Encryption: <keygen name="security">
+  <input type="submit">
+</form>
+	
+		 
+</body>
+</html>
+   
+<!doctype html>
+<html lang="us-eng">
+<head>
+<title>8</title>
+</head>
+<body bgcolor="#00BFFF">
+
+	
+	<video align="right" height="300px" width="400px" controls>
+<source src="Nokia 6 - Unboxing _ Hands On_ - 480P.mp4">
+YOUR BROWSER DOES NOT SUPPORT VIDEO TAG.
+	</video>
+	
+	
+	<audio align="right" height="300px" width="400px" controls>
+<source src="Nokia 6 - Unboxing _ Hands On_ - 480P.mp4">
+YOUR BROWSER DOES NOT SUPPORT VIDEO TAG.
+	</audio>
+	
+	 <article>
+  <header>
+    <h1>Most important heading here</h1>
+    <h3>Less important heading here</h3>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article> 
+	
+	 <footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer> 
+
+	 <nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav> 
+	
+	 <embed src="helloworld.swf"> 
+	
+	 <ul>
+  <li>User <bdi>hrefs</bdi>: 60 points</li>
+  <li>User <bdi>jdoe</bdi>: 80 points</li>
+  <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul> 
+	
+	 <input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist> 
+	
+	 <input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist> 
+	
+	
+	 <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+  <input type="range" id="a" value="50">100
+  +<input type="number" id="b" value="50">
+  =<output name="x" for="a b"></output>
+</form> 
+	
+	<form action="demo_keygen.asp" method="get">
+  Username: <input type="text" name="usr_name">
+  Encryption: <keygen name="security">
+  <input type="submit">
+</form>
+	
+		 
+</body>
+</html>
+   
+

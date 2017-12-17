@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="us-eng">
+<head>
+<title>ANSWERS</title>
+</head><body>
+<table border="2px">
+<caption>List of Course-wise Subjects</caption>
+<tr>
+   <th rowspan="2">Sr.No.</th>
+   <th rowspan="2">Course</th>
+   <th rowspan="2">Subject</th>
+   <th colspan="2">Marks</th>
+   <th colspan="2">Category</th>
+   <th rowspan="2">Practical/<br/> Theory</th>
+</tr>
+<tr>
+   <th>Internal</th>
+   <th>External</th>
+   <th>Internal</th>
+   <th>External</th>
+</tr>
+<tr>
+	<td rowspan="3">1</td>
+	<td rowspan="3">MBA</td>
+	<td>Management Accounting</td>
+	<td>30</td>
+	<td>70</td>
+	<td>-</td>
+	<td>&#10004</td>
+	<td>Theory</td>
+</tr>
+<tr>	
+	<td>Basics of Marketing</td>
+	<td>30</td>
+	<td>70</td>
+	<td>-</td>
+	<td>&#10004</td>
+	<td>T and P</td>
+</tr>	
+<tr>
+	<td>E-Commerce</td>
+	<td>50</td>
+	<td>-</td>
+	<td>&#10004</td>
+	<td>-</td>
+	<td>Theory</td>
+</table>
+
+</body>
+</html>
+   

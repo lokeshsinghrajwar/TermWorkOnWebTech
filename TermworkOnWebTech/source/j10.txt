@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title> JavaScript</title>
+
+<script type="text/javascript">
+	var survey=new Array(4);
+	for(i=0;i<4;i++)
+		survey[i]=new Array(4);
+	for(i=0;i<4;i++)
+	{
+	  for(j=0;j<4;j++)
+		survey[i][j]=0;
+	}
+
+function storeArray()
+{
+	var citycode=document.getElementById("city").value;
+	var carcode=parseInt(document.getElementById("car").value);
+	
+	
+		var num = survey[citycode][carcode];
+		num = num+1;
+		survey[citycode][carcode] = num;
+	var c=1;
+	for(i=0;i<4;i++)
+	{
+		
+		for(j=0;j<4;j++)
+		{
+			document.getElementById("c"+c).innerHTML=survey[i][j];
+			c++;
+		}
+		
+	}
+
+}
+</script>
+	</head>
+
+	<body>
+		<form>
+			Choose City:
+			<select id="city">
+				<option value="0">Delhi 
+				<option value="1">Mumbai 
+				<option value="2">Kolkata
+				<option value="3">Chennai
+			</select>&nbsp&nbsp&nbsp
+
+			Choose Car Model:
+			<select id="car" size="1" >
+				<option value="0">K10 
+				<option value="1">ALTO 
+				<option value="2">SWIFT
+				<option value="3">SX-4
+			</select>
+			<br><br>
+			<input type=button value=Report onclick="storeArray()">
+		</form>
+
+		<br><br>
+		<center>
+		<table>
+			<tr >
+				<td></td>
+				<td>K10</td>
+				<td>ALTO</td>
+				<td>SWIFT</td>
+				<td>SX-4</td>
+			</tr>
+			<tr >
+				<td>Delhi</td>
+				<td id=c1>0</td>
+				<td id=c2>0</td>
+				<td id=c3>0</td>
+				<td id=c4>0</td>
+			</tr>
+			<tr >
+				<td>Mumbai</td>
+				<td id=c5>0</td>
+				<td id=c6>0</td>
+				<td id=c7>0</td>
+				<td id=c8>0</td>
+			</tr>
+			<tr >
+				<td>Kolkata</td>
+				<td id=c9>0</td>
+				<td id=c10>0</td>
+				<td id=c11>0</td>
+				<td id=c12>0</td>
+			</tr>
+			<tr >
+				<td>Chennai</td>
+				<td id=c13>0</td>
+				<td id=c14>0</td>
+				<td id=c15>0</td>
+				<td id=c16>0</td>
+			</tr>
+		</table>
+		</center>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title>4</title>
+</head>
+<body>
+<table align="center" border=1>
+<caption><b>Table With Mobile Connections</b></caption>
+<tr>
+   <td><img height=50 width=50 src="t1.jpg"></td>
+
+   <td><img height=50 width=50 src="t2.jpg"></td>
+
+   <td><img height=50 width=50 src="t3.png"></td>
+
+   <td><img height=50 width=50 src="t4.png"></td>
+</tr>
+<tr>
+    
+   <td><img height=50 width=50 src="t5.png"></td>
+   <td colspan="2">Table With Images</td>
+   
+   <td><img height=50 width=50 src="t6.png"></td>
+</tr>
+<tr>
+   <td><img height=50 width=50 src="t7.png"></td>
+
+   <td><img height=50 width=50 src="t8.jpg"></td>
+
+   <td><img height=50 width=50 src="t1.jpg"></td>
+
+   <td><img height=50 width=50 src="t2.jpg"></td>
+</tr>
+</table>
+</body>
+</html>

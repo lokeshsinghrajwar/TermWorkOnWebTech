@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+p ,li{
+font-size:25px;
+}
+</style>
+</head>
+<body>
+<ul>
+<p><li><a href="obj.html" target="info">Objective</a></li></p>
+<p><li><a href="pers.html" target="info">Personal Information</a></li></p>
+<p><li><a href="edu.html" target="info">Educational Information</a></li></p>
+<p><li><a href="obj.html" target="info">Experience</a></li></p>
+<p><li><a href="obj.html" target="info">Achievements</a></li></p>
+<p><li><a href="obj.html" target="info">Others</a></li></p>
+</ul>
+</body>
+</html>

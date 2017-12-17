@@ -1,0 +1,161 @@
+﻿<!doctype html>
+<html lang="en-US">
+<head>
+<title>GadgetsGeek</title>
+	<style>
+body{
+    background-image: url("bg.jpg");
+	background-size: 100px 80px;
+	background-repeat: repeat-x;
+    background-position: right top;
+	background-attachment: fixed;
+}
+</style>
+</head>
+<body bgcolor="cyan">
+<p>
+ <ins><sup>@</sup><sub><abbr title="Lokesh Singh"><tt>loks</tt> </abbr></sub></ins>                                                         
+</p>
+<!-- Term Work -->
+	<br/>
+	<hr/>
+	<a href="tw.html"><center><b>TERM WORK</b></center></a>
+	<br/>
+	<hr/>
+<!-- Latest Smartphones-->
+<center><h1 id="top">NOKIA 6</h1><q>Connecting People</q></center>
+<br/>
+<p><font size="5" color="blue" face="Comic Sans MS"><b><i><u>NOKIA 6</b></i></u> is latest smartphone from <strike>NOKIA</strike>
+<blockquote><h4>SPECS</h4></blockquote>
+</font>
+<ul>
+<li>RAM-4GB</li>
+<li>Storage-32GB</li>
+<li>Andorid-Nogut</li>
+<li>Chipset-Snapdragon</li>
+</ul>
+<center>
+<img align="left" height="300" width="350" src="n6.jpg" usemap="#map1">
+<map name="map1">
+<area shape="rect" coords="0,0,50,300" href="www.nokia.com">
+<area shape="rect" coords="51,0,350,300" href="n.jpg">
+</map>
+<video align="right" height="300px" width="400px" controls>
+<source src="Nokia 6 - Unboxing _ Hands On_ - 480P.mp4">
+YOUR BROWSER DOES NOT SUPPORT VIDEO TAG.
+	</video>
+</center>	
+<center><a href="www.flipkart.com"><img height="100px" width="200px" src="bn.jpg"></a></center>
+</p>
+	<table boder="2" align="center" bgcolor="black" >
+		<tr>
+			<th bgcolor="green">PROS</th>
+			<th bgcolor="red">CONS</th>
+		</tr>
+		<tr>
+			<td bgcolor="green">GOOD BUILD QUALITY</td>
+			<td bgcolor="red">RELATIVE HIGH PRICE</td>
+		</tr>
+		<tr>
+			<td bgcolor="green">HIGH RAM AND PERFORMANCE
+			<table boder="2" bgcolor="yellow">
+				<tr>
+				<th>RAM</th>
+				<th>MEMORY</th>
+				<th>PROCESSOR</th>
+				</tr>
+				<tr>
+					<td>4GB</td>
+					<td>64GB</td>
+					<td>SNAPDRAGON 840</td>
+				</tr>
+				</table>
+ 			</td>
+			<td bgcolor="red">NOT GREAT LOOKS</td>
+		</tr>
+		<tr>
+			<td bgcolor="green">GOOD CAMERA QUALITY</td>
+			<td bgcolor="red">NOT GOOD BATTERY BACKUP</td>
+		</tr>
+	</table>	
+			
+<hr height="10"/>
+<center><h1>REDMI NOTE 4</h1><q>www.xiaomi.com</q></center>
+<br/>
+<p><font size="5" color="red" face="comic sans ms"><b><i><u>REDMI NOTE 4</b></i></u> is latest smartphone from <strike>XIAOMI</strike>
+<blockquote><h4>SPECS</h4></blockquote>
+</font>
+<ul>
+<li>RAM</li>
+<ol>
+   <li>3GB</li>
+   <li>4GB</li>
+</ol>
+<li>Storage</li>
+<ol>
+   <li>16GB</li>
+   <li>32GB</li>
+</ol>
+<li>Chipset-Snapdragon 625</li>
+<li>Andorid-Marshmellow</li>
+</ul>
+<center>
+<img align="left" height="300" width="350" src="min4.jpg" usemap="#map2">
+<map name="map2">
+<area shape="rect" coords="0,0,300,300" href="x.jpg">
+<area shape="rect" coords="301,0,350,300" href="www.xiomi.com">
+</map>
+<video align="right" height="300px" width="400px" controls>
+<source src="Xiaomi Redmi Note 4 Review _ India Price_ Specific - 480P.mp4">
+YOUR BROWSER DOES NOT SUPPORT VIDEO TAG.
+</video>
+</center>
+<center><a href="www.flipkart.com"><img height="100px" width="200px" src="bn.jpg"></a></center>
+</p>
+<table boder="2" align="center" bgcolor="black">
+		<tr>
+			<th bgcolor="green">PROS</th>
+			<th bgcolor="red">CONS</th>
+		</tr>
+		<tr>
+			<td bgcolor="green">GOOD BATTERY BACKUP</td>
+			<td bgcolor="red">NOT GOOD BUILD QUALITY</td>
+		</tr>
+		<tr>
+			<td bgcolor="green">HIGH RAM AND PERFORMANCE
+			<table boder="2" bgcolor="yellow" >
+				<tr>
+				<th>RAM</th>
+				<th>MEMORY</th>
+				<th>PROCESSOR</th>
+				</tr>
+				<tr>
+					<td>4GB</td>
+					<td>32GB</td>
+					<td>SNAPDRAGON 625</td>
+				</tr>
+				</table>
+ 			</td>
+			<td bgcolor="red">HEATING ISSUES</td>
+		</tr>
+		<tr>
+			<td bgcolor="green">GREAT LOOKS</td>
+			<td bgcolor="red">POOR CAMERA QUALITY</td>
+		</tr>
+	</table>
+<hr height="10"/>
+<center><a href="#top">BACK TO TOP</a></center>
+</body>
+</html>
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>css</title>
+<style>
+
+</style>
+</head>
+<body>
+</body>
+</html>

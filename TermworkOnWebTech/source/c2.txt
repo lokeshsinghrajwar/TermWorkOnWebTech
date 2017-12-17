@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>css</title>
+<style> 
+div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px grey;
+}
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+<h1>THIS IS TEXT SHADOW EFFECT</h1>
+<div>This is a div element with a box-shadow</div>
+
+</body>
+
+
+</html>
+
+</html>

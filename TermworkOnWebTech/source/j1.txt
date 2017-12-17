@@ -1,0 +1,68 @@
+
+<!doctype html>
+<head>
+	<title>Card Validation</title>
+	<style>
+	input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	}
+	</style>
+</head>
+<body>
+	<form>
+		Card Type<br>
+		<select name="cardname" id="card">
+		<option value="0">--SELECT CARD--</option>
+		<option value="1">Master Card</option>
+		<option value="2">VISA</option>
+		<option value="3">American Express</option>
+		</select><br>
+		Card Number<br>
+		<input type="text" name="num" id="num"><br>
+		<button onclick="validate()">SUBMIT</button>
+	</form>
+	<span id="abc" style="color:red"></span>
+	<script>
+		function validate()
+		{
+			var x=document.getElementById("card").value;
+			var y=document.getElementById("num").value;
+			if(x==0)
+			{
+				document.getElementById("abc").innerHTML="Select Card Type";
+			}
+			else if(x==1)
+			{
+				if(y.length==0)
+					document.getElementById("abc").innerHTML="Enter Card Number";
+				else if(y[0]==5 && y[1]>=1 && y[1]<=5 && y.length==16)
+						document.getElementById("abc").innerHTML="Valid Card Number";
+				else
+						document.getElementById("abc").innerHTML="Invalid Card Number";
+			}
+			else if(x==2)
+			{
+				if(y.length==0)
+					document.getElementById("abc").innerHTML="Enter Card Number";
+				else if(y[0]==4 && (y.length==13 || y.length==16))
+					document.getElementById("abc").innerHTML="Valid Card Number";
+				else
+					document.getElementById("abc").innerHTML="Invalid Card Number";
+			}
+			else if(x==3)
+			{
+				if(y.length==0)
+					document.getElementById("abc").innerHTML="Enter Card Number";
+				else if(y[0]==3 && (y[1]==4 || y[1]==7) && y.length==15)
+					document.getElementById("abc").innerHTML="Valid Card Number";
+				else
+					document.getElementById("abc").innerHTML="Invalid Card Number";
+			}
+		}
+	</script>
+</body>
+</html>	

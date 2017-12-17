@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Form Validation</title>
+	</head>
+	<body>
+		COUNTRIES CAPITALS<br>
+		 <select name="Countries" id="abc">
+ 			 <option value="1">India</option>
+ 			 <option value="2">Pakistan</option>
+			 <option value="3">Nepal</option>
+ 			 <option value="4">Sri Lanka</option>
+		</select>
+		<select name="Capitals" id="mno" onblur="check()">
+			<option value="4">Colombo</option>
+ 			<option value="3">Kathmandu</option>
+ 			<option value="1">Delhi</option>
+			<option value="2">Islamabad</option>
+		</select>
+		
+	
+		<script>
+			function check(){
+				var x=document.getElementById("abc").value;
+				var y=document.getElementById("mno").value;
+				if(x==y)
+				{	alert("Correct");
+			
+				}
+				else
+				{	alert("InCorrect");
+					
+				}
+			}
+		</script>
+	</body>
+</html>
